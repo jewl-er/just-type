@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>{{TITLE}}</h1>
+
+  <div id="typing-container">
+    <div id="source" class="hidden">
+      {{CONTENT}}
+    </div>
+
+    <div id="rendered">
+      {{CONTENT}}
+    </div>
+
+    <textarea id="input" autofocus></textarea>
+
+    <div id="stats">
+      Accuracy: <span id="accuracy">100</span>%
+    </div>
+  </div>
+
+  <script>
+    window.FRONTMATTER = {{FRONTMATTER}}
+  </script>
+  <script src="typing.js"></script>
+</body>
+</html>
