@@ -1,0 +1,12 @@
+{
+  "name": "md-typing-builder",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^12.0.0",
+    "highlight.js": "^11.9.0"
+  }
+}
